@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
 
 # ── configurable paths ────────────────────────────────────────────────────────
-DATA_DIR = Path(os.getenv("FAKENEWS_DATA_DIR", "."))
+DATA_DIR = Path(os.getenv("FAKENEWS_DATA_DIR", "./Dataset"))
 
 FILE_MAP = {
     "politifact": {
