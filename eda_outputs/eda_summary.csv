@@ -1,0 +1,7 @@
+,,word_count,word_count,word_count,word_count,char_count,char_count,char_count,char_count
+,,count,mean,median,std,count,mean,median,std
+source,label_name,,,,,,,,
+gossipcop,fake,4879,11.4,11.0,3.9,4879,67.3,68.0,21.8
+gossipcop,real,15813,11.8,12.0,3.9,15813,68.1,67.0,21.2
+politifact,fake,426,12.1,11.0,5.2,426,71.6,69.0,28.7
+politifact,real,549,8.5,8.0,4.8,549,51.8,48.0,28.9

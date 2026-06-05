@@ -1,0 +1,23 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.3
+scipy>=1.10
+
+# ── NLP / Embeddings ──────────────────────────────────────────────────────────
+gensim>=4.3               # Word2Vec
+vaderSentiment>=3.3       # VADER sentiment
+nrclex>=3.0               # NRC emotion lexicon (installs the lexicon automatically)
+
+# ── BERT (optional — comment out if not needed) ──────────────────────────────
+sentence-transformers>=2.2
+transformers>=4.35
+torch>=2.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.7
+seaborn>=0.12
+wordcloud>=1.9            # optional; eda.py degrades gracefully without it
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.65
